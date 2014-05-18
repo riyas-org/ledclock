@@ -4,9 +4,9 @@
 // Credits to krodal (arduino.cc) and hobbycomponents.com
 
 // Set your own pins with these defines !
-#define DS1302_SCLK_PIN   8    // Arduino pin for the Serial Clock
-#define DS1302_IO_PIN     9    // Arduino pin for the Data I/O
-#define DS1302_CE_PIN     10    // Arduino pin for the Chip Enable
+#define DS1302_SCLK_PIN   14    // Arduino pin for the Serial Clock
+#define DS1302_IO_PIN     15   // Arduino pin for the Data I/O
+#define DS1302_CE_PIN     16    // Arduino pin for the Chip Enable
 #define bcd2bin(h,l)    (((h)*10) + (l))
 #define bin2bcd_h(x)   ((x)/10)
 #define bin2bcd_l(x)    ((x)%10)
