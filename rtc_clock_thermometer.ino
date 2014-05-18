@@ -102,9 +102,9 @@ typedef struct ds1302_struct
 #include "Arduino.h"
 
 /* Pin order for digit select DIO */
-const byte u8PinOut_Digit[] = {11,6,5,2};
+const byte u8PinOut_Digit[] = {13,6,5,2};
 /* Pin order for segment DIO. The segment order is A,B,C,D,E,F,G,DP */
-const byte u8PinOut_Segment[] = {3,7,16,18,14,4,15,17};
+const byte u8PinOut_Segment[] = {3,7,11,9,8,4,12,10};
 const byte u8Digit_Map[] = {252,96,218,242,102,182,190,224,254,230,2};
 class HC7Segment
 {
