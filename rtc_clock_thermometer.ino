@@ -2,6 +2,7 @@
 // Uses arduino uno and seven segment led display (direct drive)
 // LM 35 for temperature sensing 
 // Credits to krodal (arduino.cc) and hobbycomponents.com
+// Wiring details http://blog.riyas.org/2014/05/simple-led-clock-thermomter-with-ds1302-lm35-for-beginners.html
 
 // Set your own pins with these defines !
 #define DS1302_SCLK_PIN   14    // Arduino pin for the Serial Clock
